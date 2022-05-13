@@ -1,0 +1,94 @@
+:root {
+    --light-yellow: #ffef82;
+    --dark-yellow: #efd345;
+    --light-green: #babd42;
+    --dark-green: #82954b;
+}
+/* universal */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+.header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header h1 {
+    text-align: center;
+    border: 2px dotted var(--dark-green);
+    border-radius: 90px;
+    margin: 10px 630px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: var(--dark-yellow);
+}
+
+/* body */
+body {
+    background-color: var(--light-yellow)
+}
+
+/* large about me text (I'm a leo fyi) */
+.lil-bit-bout-me {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lil-bit-bout-me p {
+    font-size: 46px;
+    text-align: center;
+    margin: 75px 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* section stuff for like the big parts ya know */
+.section-title {
+    text-align: center;
+    font-size: 38px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.section-divider {
+    border-bottom: 7px solid var(--dark-green);
+    margin: 25px 50px;
+}
+
+/* the goods */
+.subjects {
+    margin: 0 150px;
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.subject-box {
+    border: 13px solid var(--dark-green);
+    padding: 25px;
+    background-color: var(--light-green);
+    flex: 0 0 400px;
+    position: relative;
+    top: 1px;
+    left: 10px;
+    right: 10px;
+    bottom: 100px;
+}
+
+.subject-title {
+    font-size: 25px;
+    text-align: right;
+}
+
+.big-border {
+    margin: 20px 100px;
+}
+
+.subject-img {
+    height: 150px;
+    width: 100px;
+}
