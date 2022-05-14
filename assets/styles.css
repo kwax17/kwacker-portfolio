@@ -108,7 +108,7 @@ body {
 
 .section-divider-3 {
     border-bottom: 7px solid var(--dark-green);
-    margin: 100px 50px 125px 50px;
+    margin: 100px 50px 100px 50px;
 }
 
 /* the goods */
@@ -140,6 +140,7 @@ body {
     font-size: 19px;
     text-align: right;
     padding: 5px 5px 50px 50px;
+    margin: 460px 0 0 0;
 }
 
 .subject-img {
@@ -207,6 +208,7 @@ body {
     height: 150px;
 }
 
+/* lets link */
 .social-links h3 {
     margin: 0;
 }
@@ -239,6 +241,34 @@ body {
     text-shadow: none;
 }
 
+/* the latest */
+.interests {
+    margin: 0 100px;
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.interest-box {
+    border: 2px solid var(--dark-green);
+    background-color: var(--dark-green);
+    height: 400px;
+    width: 300px;
+    margin-bottom: 25px;
+    padding: 5px 5px;
+    flex: 0 0 400px;
+    position: relative;
+}
+
+.interest-box h3 {
+    text-align: center;
+    margin: 5px 15px 0 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: var(--light-green);
+}
 /* footer */
 footer {
     margin: 0;
