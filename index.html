@@ -16,7 +16,7 @@
     <nav>
         <ul>
             <li>
-                <a href="#lil-bit-bout-me">About Me</a>
+                <a href="#bio">About Me</a>
             </li>
             <li>
                 <a href="#subjects">The Goods</a>
@@ -32,7 +32,7 @@
  </header>
 
  <!-- Bio -->
- <section class="lil-bit-bout-me" >
+ <section class="lil-bit-bout-me" id="bio" >
      <p>Hey I'm Kelly.  I'm a web designer, graphic designer, filmmaker, and photographer.  I currently live at the Jersey Shore and work at a surf store and camp, but I love to travel and explore the world in my free time. I'm an avid reader, part-time gym goer, and full-time creative.</p>
  </section>
 
@@ -40,7 +40,7 @@
  <div class="section-divider"></div>
 
  <!-- subject boxes -->
- <section class="subjects">
+ <section class="subjects" id="subjects">
     <div class="section-title">
          <h2>The Goods</h2>
     </div>
@@ -87,16 +87,21 @@
  <div class="section-divider-2"></div>
 
  <!-- reach out -->
- <section class="contact">
+ <section class="contact" id="reach-out">
     <h2 class="section-title">Get in Touch!</h2>
         <div class="contact-form">
-                <label for="contact-name">Your Name</label>
-                <input type="text" id="contact-name" placeholder="Your Name" />
-
-                <label for="contact-message">Message</label>
-                <textarea id="contact-message" placeholder="Message"></textarea>
-
-                <button type="submit">Submit</button>
+            <form>
+                <div class="your-name">
+                    <label for="contact-name">Your Name</label>
+                    <input type="text" id="contact-name" placeholder="Your Name Please" />
+                </div>
+                <div class="your-message">
+                    <label for="contact-message">Message</label>
+                    <textarea id="contact-message"></textarea>
+                </div>
+                <div class="button">
+                    <button type="submit">Submit</button>
+                </div>
             </form>
         </div>
     <div class="social-links">
@@ -114,9 +119,16 @@
     </div>
  </section>
 
+  <!-- divider -->
+  <div class="section-divider-3"></div>
+
+ <section class="the-latest">
+
+ </section>
+
  <!-- footer -->
  <footer class="footer">
-     chaos coordinated by kel
+     chaos coordinated by kelly
  </footer>
 </body>
 </html>
