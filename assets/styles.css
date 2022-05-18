@@ -75,6 +75,9 @@ header nav ul li a:hover {
     margin: 0;
 }
 /* large about me text (I'm a leo fyi) */
+.bio-header {
+    padding-right: 75px;
+}
 .lil-bit-bout-me {
     display: flex;
     flex-wrap: nowrap;
@@ -91,15 +94,22 @@ header nav ul li a:hover {
 .section-title {
     text-align: left;
     font-size: 2.7vw;
-    margin-top: 100px;
-    margin-left: 10px;
+    margin-top: 75px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    padding-right: 10px;
+    border-right: 5px solid var(--dark-green);
 }
 
 .section-title h2 {
     text-align: right;
 }
 
+
 /* the goods */
+.work-header {
+    padding-right: 87px;
+}
 .subjects {
     display: flex;
     flex-wrap: nowrap;
@@ -132,15 +142,70 @@ header nav ul li a:hover {
 
 .side-project {
     border: 5px solid var(--light-green);
-    margin: 30px 5px 100px 120px;
+    margin: 30px 5px 30px 120px;
 }
 
 /* contact me */
+.contact-header {
+    padding-right: 25px;
+}
+.contact-me {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.contact-info {
+    margin: 100px 30px;
+    padding: 0 10px 0 100px;
+}
+  
+.contact-info ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.contact-info ul li {
+    padding: 20px 30px;
+}
+  
+.contact-info ul li a {
+    padding: 10px 30px;
+    font-weight: lighter;
+    font-size: 1.7vw;
+    text-decoration: none;
+    color: var(--dark-green);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+  
+.contact-info ul li a:hover {
+    background: var(--dark-green);
+    color: var(--light-yellow);
+    border-radius: 30px;
+    text-shadow: none;
+}
+
+.contact-info ul li p {
+    padding: 10px 30px;
+    font-weight: lighter;
+    font-size: 1.7vw;
+    text-decoration: none;
+    color: var(--dark-green);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.contact-info ul li p:hover {
+    background: var(--dark-green);
+    color: var(--light-yellow);
+    border-radius: 30px;
+    text-shadow: none;
+}
 
 /* footer */
 footer {
     margin: 0;
     background-color: var(--dark-green);
-    padding: 35px;
+    padding: 30px;
     text-align: center;
 }
