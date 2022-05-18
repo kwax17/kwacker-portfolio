@@ -70,176 +70,73 @@ header nav ul li a:hover {
     text-shadow: none;
 }
 
+/* hero stuff tba */
+.subtitle {
+    margin: 0;
+}
 /* large about me text (I'm a leo fyi) */
 .lil-bit-bout-me {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .lil-bit-bout-me p {
     font-size: 1.5vw;
     text-align: right;
-    margin: 100px 105px 100px 230px;
+    margin: 130px 105px 100px 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /* section stuff for like the big parts */
 .section-title {
-    text-align: right;
+    text-align: left;
     font-size: 2.7vw;
-    margin: 50px 1000px 30px 30px;
-    padding-right: 400px;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+.section-title h2 {
+    text-align: right;
 }
 
 /* the goods */
+.subjects {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
 .cards {
     flex: 1;
-    padding: 50px;
+    padding: 5px 5px 5px 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+}
+
+.cards img {
+    padding: 200px;
+}
+
+.main-project {
+    border: 5px solid var(--light-green);
+    margin: 100px 40px 50px 120px;
+    padding-right: 535px;
 }
 
 .subject-title {
-    font-size: 19px;
-    text-align: right;
-    padding: 5px 5px 50px 50px;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    background-color: var(--light-green);
+    font-size: 1.9vw;
+    margin-right: 175px;
 }
 
-.subject-title a {
-    font-size: 24px;
-    text-decoration: none;
-    color: black;
-}
-
-.subject-img img {
-    height: 290px;
-    width: 320px;
-    margin: 0 40px 130px 40px;
+.side-project {
+    border: 5px solid var(--light-green);
+    margin: 30px 5px 100px 120px;
 }
 
 /* contact me */
-.contact {
-    border: 13px solid var(--dark-green);
-    margin: 0px 250px 75px 250px;
-    background-color: var(--dark-yellow);
-    padding: 10px 50px;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-items: center;
-}
 
-.contact h2 {
-    margin-top: 25px;
-}
-
-.contact-form {
-    margin: 0 200px 30px 200px;
-    border: 5px dashed var(--light-green);
-    padding: 25px 120px;
-    border-radius: 90px;
-    font-size: 1.9vw;
-    text-align: center;
-    background-color: var(--dark-green);
-}
-
-.your-name, .your-message {
-    margin: 0 20px 30px 20px;
-}
-
-.contact-form label {
-    margin-bottom: 15px;
-}
-
-.contact-form label, input {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.contact-form button {
-    text-align: center;
-    padding: 10px 15px;
-    background-color: black;
-    color: var(--light-yellow);
-}
-
-
-#contact-name   {
-    width: 300px;
-    height: 25px;
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 15px;
-}
-
-#contact-message {
-    width: 300px;
-    height: 150px;
-}
-
-/* lets link */
-.social-links h3 {
-    margin: 0;
-}
-.social-links {
-    text-align: center;
-    padding: 20px;
-    list-style: none;
-}
-
-.social-links h3 {
-    margin-bottom: 10px;
-    font-size: 2.9vw;
-}
-
-.social-links li {
-    margin: 10px;
-}
-
-.social-links li a {
-    text-decoration: none;
-    color: #82954b;
-    font-weight: bolder;
-    font-size: 2.2vw;
-}
-.social-links li a:hover {
-    background: var(--dark-green);
-    color: var(--light-yellow);
-    padding: 5px 30px;
-    border-radius: 50px;
-    text-shadow: none;
-}
-
-/* the latest */
-.interests {
-    margin: 0 100px;
-    flex: 1;
-    padding: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.interest-box {
-    border: 2px solid var(--dark-green);
-    background-color: var(--dark-green);
-    height: 400px;
-    width: 300px;
-    margin-bottom: 25px;
-    padding: 5px 5px;
-    flex: 0 0 400px;
-    position: relative;
-}
-
-.interest-box h3 {
-    text-align: center;
-    margin: 5px 15px 0 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    background-color: var(--light-green);
-}
 /* footer */
 footer {
     margin: 0;
