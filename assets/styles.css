@@ -71,9 +71,28 @@ header nav ul li a:hover {
 }
 
 /* hero stuff tba */
-.subtitle {
-    margin: 0;
+.hero {
+    background-image: url("./images/hero.jpg");
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 600px;
+    margin: 0 auto;
 }
+
+.subtitle {
+    margin: 85px 400px 1500px 1200px;
+    font-size: 1.9vw;
+    text-align: right;
+    font-style: italic;
+    border-right: 5px solid var(--dark-green);
+    padding-right: 15px;
+}
+
+
 /* large about me text (I'm a leo fyi) */
 .bio-header {
     padding-right: 75px;
@@ -86,7 +105,7 @@ header nav ul li a:hover {
 .lil-bit-bout-me p {
     font-size: 1.5vw;
     text-align: right;
-    margin: 130px 105px 100px 30px;
+    margin: 130px 105px 100px 85px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -104,7 +123,6 @@ header nav ul li a:hover {
 .section-title h2 {
     text-align: right;
 }
-
 
 /* the goods */
 .work-header {
@@ -128,8 +146,8 @@ header nav ul li a:hover {
 
 .main-project {
     border: 5px solid var(--light-green);
-    margin: 100px 40px 50px 120px;
-    padding-right: 535px;
+    margin: 100px 60px 50px 120px;
+    padding-right: 510px;
 }
 
 .subject-title {
@@ -142,7 +160,7 @@ header nav ul li a:hover {
 
 .side-project {
     border: 5px solid var(--light-green);
-    margin: 30px 5px 30px 120px;
+    margin: 30px 0 30px 114px;
 }
 
 /* contact me */
@@ -195,6 +213,7 @@ header nav ul li a:hover {
     color: var(--dark-green);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 .contact-info ul li p:hover {
     background: var(--dark-green);
     color: var(--light-yellow);
