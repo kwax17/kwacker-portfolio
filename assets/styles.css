@@ -201,7 +201,7 @@ header nav ul li a:hover {
 .contact-info ul li a {
     padding: 10px 30px;
     font-weight: lighter;
-    font-size: 1.7vw;
+    font-size: 1.3vw;
     text-decoration: none;
     color: var(--dark-green);
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -217,7 +217,7 @@ header nav ul li a:hover {
 .contact-info ul li p {
     padding: 10px 30px;
     font-weight: lighter;
-    font-size: 1.7vw;
+    font-size: 1.3vw;
     text-decoration: none;
     color: var(--dark-green);
     font-family: Georgia, 'Times New Roman', Times, serif;
