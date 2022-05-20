@@ -238,7 +238,7 @@ footer {
     text-align: center;
 }
 
-/* MEDIA QUERY FOR SMALLERY DESKTOPS SCREENS AND SMALLER */
+/* MEDIA QUERY FOR SMALLER DESKTOPS SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
     header {
       padding-bottom: 0;
