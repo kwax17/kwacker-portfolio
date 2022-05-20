@@ -90,6 +90,8 @@ header nav ul li a:hover {
     font-style: italic;
     border-right: 5px solid var(--dark-green);
     padding-right: 15px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
@@ -140,27 +142,34 @@ header nav ul li a:hover {
     flex-wrap: wrap;
 }
 
-.cards img {
-    padding: 200px;
-}
-
 .main-project {
     border: 5px solid var(--light-green);
     margin: 100px 60px 50px 120px;
-    padding-right: 510px;
+    padding: 200px 510px 100px 0;
+    background-color: var(--light-yellow);
+}
+
+.main-project:hover {
+    background: var(--dark-yellow);
 }
 
 .subject-title {
     margin-bottom: 20px;
-    padding: 10px 30px;
+    padding: 20px 40px;
     background-color: var(--light-green);
     font-size: 1.9vw;
-    margin-right: 175px;
+    margin-right: 105px;
 }
 
+/* this is for the new challenes as they come up in the course */
 .side-project {
     border: 5px solid var(--light-green);
-    margin: 30px 0 30px 114px;
+    margin: 30px 50px 30px 114px;
+    background-color: var(--light-yellow);
+}
+
+.side-project:hover {
+    background: var(--dark-yellow);
 }
 
 /* contact me */
@@ -228,3 +237,234 @@ footer {
     padding: 30px;
     text-align: center;
 }
+
+/* MEDIA QUERY FOR SMALLERY DESKTOPS SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+      padding-top: 10px;
+    }
+  
+    header h1 {
+      width: 100%;
+      text-align: center;
+    }
+  
+    header nav ul {
+      width: 100%;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+
+    header nav ul li a {
+     font-size: 18px;
+    }
+
+    .hero {
+        width: 100%;
+    }
+
+    .subtitle {
+        margin-right: 700px;
+        font-size: 29px;
+    }
+    .bio-header {
+        margin-left: 20px;
+        margin-right: 35px;
+    }
+
+    .lil-bit-bout-me p {
+        font-size: 20px;
+    }
+
+    .cards {
+        width: 100%;
+        margin-right: 200px;
+    }
+
+    .main-project {
+       padding-right: 0; 
+    }
+  
+    .section-title {
+      width: 80%;
+    }
+    
+    .contact-info {
+      margin-right: 29%;
+    }
+
+     .contact-info ul li a {
+        text-align: center;
+        font-size: 20px;
+        padding: 10px 30px;
+    }
+
+     .contact-info ul li p {
+        text-align: center;
+        font-size: 20px;
+    }
+}
+  
+/* MEDIA QUERY FOR TABLTS AND SMALLER */
+@media screen and (max-width: 768px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        padding-top: 10px;
+      }
+    
+      header h1 {
+        width: 100%;
+        text-align: center;
+      }
+    
+      header nav ul {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 10px;
+      }
+  
+      header nav ul li a {
+       font-size: 18px;
+      }
+  
+      .hero {
+          width: 100%;
+      }
+  
+      .subtitle {
+          margin-top: 125px;
+          margin-right: 800px;
+          font-size: 24px;
+      }
+
+      .bio-header {
+          margin-left: 10px;
+          margin-right: 0;
+      }
+  
+      .lil-bit-bout-me p {
+          font-size: 20px;
+          margin-right: 50px;
+      }
+  
+      .cards {
+          width: 100%;
+          margin-left: 40px;
+      }
+  
+      .main-project {
+         padding-right: 0;
+         margin-left: 85px; 
+      }
+      
+      .side-project {
+          margin-left: 85px;
+      }
+      .section-title {
+        width: 80%;
+      }
+      
+      .contact-header {
+          margin-right: 30px;
+      }
+
+      .contact-info {
+        margin-right: 29%;
+      }
+  
+       .contact-info ul li a {
+          text-align: center;
+          font-size: 20px;
+          padding: 10px 30px;
+      }
+  
+       .contact-info ul li p {
+          text-align: center;
+          font-size: 20px;
+      }
+}
+  
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        padding-top: 0;
+        display: block;
+    }
+    
+    header h1 {
+        width: 82%;
+    }
+    
+    header nav ul {
+        width: 50%;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+  
+    header nav ul li a {
+       font-size: 16px;
+    }
+  
+    .hero {
+        width: 100%;
+    }
+  
+    .subtitle {
+        margin-right: 900px;
+        font-size: 20px;
+    }
+
+    .section-title {
+        padding: 0;
+        font-size: 14px;
+    }
+    .bio-header {
+        margin-left: 0;
+        padding-right: 47px;
+    }
+  
+    .lil-bit-bout-me p {
+        font-size: 20px;
+        margin-left: 33px;
+    }
+  
+    .cards {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .work-header {
+        margin-left: 0;
+        padding-right: 50px;
+    }
+
+
+    .side-project {
+        padding: 0;
+    }
+  
+    .contact-header {
+        margin-left: 0;
+        padding-right: 1px;
+    }
+    .contact-info {
+        margin-left: 0;
+        padding-left: 45px;
+    }
+
+    .contact-info ul li a {
+        text-align: center;
+        font-size: 20px;
+        padding: 10px 30px;
+    }
+  
+    .contact-info ul li p {
+        text-align: center;
+        font-size: 20px;
+    }
+  }
